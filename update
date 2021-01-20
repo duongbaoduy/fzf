@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# git pull --rebase --allow-unrelated-histories https://github.com/junegunn/fzf.git master 
+git pull "https://github.com/junegunn/fzf.git" master:repo --allow-unrelated-histories
+git push origin repo 
